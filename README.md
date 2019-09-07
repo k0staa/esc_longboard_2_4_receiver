@@ -9,6 +9,9 @@ Project is very simple and uses following dependencies:
  - Servo
 
 ## Pictures
+![Alt text](Photos/IMG_20190907_185642.jpg?raw=true "Schema photo 1")
+![Alt text](Photos/IMG_20190907_185659.jpg?raw=true "Schema photo 2")
+![Alt text](Photos/IMG_20190907_185711.jpg?raw=true "Schema photo 3")
 
 
 ## Licence
