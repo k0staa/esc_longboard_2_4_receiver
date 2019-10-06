@@ -2,8 +2,8 @@
 
 A simple Arduino code which I use to handle the signal from the 2.4 Ghz receiver pulled out of the toy to control the signal flowing to the ESC controlling the operation of the engine connected to the Longboard.
 The receiver cannot be directly connected to the ESC due to signal incompatibility.
-
-
+I attach the version for Arduino Uno and Atmega8.
+Because I use power from ESC which is quite high (>5V) and destabilizes the 2.4 GHz receiver, I added a few LEDs that stabilize the work.
 ## Dependencies
 Project is very simple and uses following dependencies:
  - Servo
@@ -12,8 +12,8 @@ Project is very simple and uses following dependencies:
 ![Alt text](Photos/IMG_20190907_185642.jpg?raw=true "Schema photo 1")
 ![Alt text](Photos/IMG_20190907_185659.jpg?raw=true "Schema photo 2")
 ![Alt text](Photos/IMG_20190907_185711.jpg?raw=true "Schema photo 3")
-
-
+![Alt text](Photos/receiver_proc_schema.png?raw=true "Receiver processor signal schema")
+![Alt text](Photos/IMG_20191005_192845.jpg?raw=true "Schema with Atmega8")
 ## Licence
 
 Project uses a MIT licence .
